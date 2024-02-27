@@ -29,7 +29,7 @@ class PlanController extends Controller
 
     public function show(Plan $plan, Request $request)
     {   
-       $paymentMethods = $request->user()->paymentMethods();
+        $paymentMethods = $request->user()->paymentMethods();
 
         $intent = $request->user()->createSetupIntent();
         

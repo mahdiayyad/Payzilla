@@ -2,6 +2,10 @@ body {
     background-color: #f9f9fa;
 }
 
+.color343a40 {
+    color: #343a40;
+}
+
 .padding {
     padding: 3rem !important
 }
@@ -184,5 +188,3 @@ h6 {
   text-decoration: none;
   color: #ffc107;
 }
-    
-
